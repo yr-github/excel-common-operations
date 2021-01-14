@@ -10,7 +10,7 @@
 一些使用openpyxl批量处理excel的脚本
 
 ---
-## [delete-cell-english](delete-cell-english/README.md)
+## delete-cell-english
 
 ### 功能说明：
 功能一：删除中英文混合单元格中的英文<br>
