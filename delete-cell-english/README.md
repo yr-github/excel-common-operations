@@ -1,13 +1,6 @@
-<!--
- * @Author: WangYuRan
- * @Date: 2021-01-02 21:21:28
- * @LastEditors: WangYuRan
- * @LastEditTime: 2021-01-14 15:17:05
- * @Description: 描述
- * @FilePath: \undefinedd:\pyPro\excel-common-operations\delete-cell-english\README.md
--->
-<script src='https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js'></script>
+<script src="https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
+
 <div class="mermaid">
 graph TD;
     A-->B;
