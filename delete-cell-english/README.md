@@ -1,33 +1,11 @@
-<script src="/mermaid.min.js"></script>
-
-
-<div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-</div>
 # delete-cell-english
 
 ---
-## 功能需求：
+## 功能：
 1.   删除输入文件中指定sheet页内的中英文混合单元格的英文。
 2.   读取config中的中英文对照关系，若当前excel存在该对应关系则添
 加翻译
 
----
-## 流程
-<div class="mermaid">
-graph TD;
-  start([开始])-->id1[读取config];
-  id1-->id2[遍历文件夹];
-  id2-->id3[读取输入文件信息];
-  id3--功能一-->ac1[删除英文];
-  id3--功能二-->ac2(根据历史纪录翻译英文);
-  ac1-->End([结束]);
-  ac2-->End([结束]);
-</div>
 ---
 
 ## 使用方法
