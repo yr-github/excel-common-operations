@@ -1,4 +1,4 @@
-<script src="https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js"></script>
+<script src="mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 
 <div class="mermaid">
