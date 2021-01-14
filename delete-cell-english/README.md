@@ -6,6 +6,15 @@
  * @Description: 描述
  * @FilePath: \undefinedd:\pyPro\excel-common-operations\delete-cell-english\README.md
 -->
+<script src='https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js'></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
 # delete-cell-english
 
 ---
@@ -16,20 +25,16 @@
 
 ---
 ## 流程
-
-
-```mermaid
-graph TD
-
-start([开始])-->id1[读取config]
-id1-->id2[遍历文件夹]
-id2-->id3[读取输入文件信息]
-id3--功能一-->ac1[删除英文]
-id3--功能二-->ac2(根据历史纪录翻译英文)
-ac1-->End([结束])
-ac2-->End([结束])
-```
-
+<div class="mermaid">
+graph TD;
+  start([开始])-->id1[读取config];
+  id1-->id2[遍历文件夹];
+  id2-->id3[读取输入文件信息];
+  id3--功能一-->ac1[删除英文];
+  id3--功能二-->ac2(根据历史纪录翻译英文);
+  ac1-->End([结束]);
+  ac2-->End([结束]);
+</div>
 ---
 
 ## 使用方法
